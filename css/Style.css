@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Roboto:wght@100;300&display=swap" rel="stylesheet")
+
+/* Variables */
+:root{
+    /*fuentes*/
+    --fuente-titulos:var(--Roboto)
+}
+
+body{
+    background:linear-gradient(to bottom,#00ffd0,#bfe965)
+}
+header{
+    background-color: rgb(18, 184, 234);
+    font-size: 1rem;
+}
+
+.titulo{
+    letter-spacing: 0.30rem;
+    text-align: center
+}
+
+#parrafos p:nth-child(2){
+    color:black;
+    line-height: 2rem;
+    font-size:large;
+}
+
+.parrafos p:nth-child(3){
+    color:red;
+    font-style: italic;
+    font-size:large;
+}
+
+.parrafos p:nth-child(4){
+    color:white;
+    font-style: unset;
+    font-size:large;
+}
+
+img {
+    margin: auto;
+    width: 250px;
+    height: 200;
+    padding: 8px,8px;
+    border: 4px solid rgb(222, 210, 214);
+}
+
+div {
+    background-color: rgb(135, 222, 208);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box:nth-child(2){
+    background-color: red;
+    position: relative;
+    left: 70%;
+    top: 10px;
+    border: violet 5px double ;
+}
+.container .box:nth-child(3){
+    background-color:violet;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 30px;
+}
+
+
+.container .box:nth-child(4){
+    background-color: burlywood;
+    position: absolute;
+    padding-right: 15px;
+    bottom: 10px;
+    right: 10px;
+    text-overflow: clip;
+}
+
